@@ -1,0 +1,58 @@
+#font{
+	font-family: 'Raleway', sans-serif !important;
+
+}
+
+header {
+	padding-left: 40px;
+	padding-top: 20px;
+}
+/* Feel free to modify anything in this file.*/
+.vendor-wrapper {
+	/*justify-content: left;*/
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.vendor-photo {
+	display: block;
+	width: 350px;
+	height: 200px;
+	margin: 0 auto;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+.vendor-book-button {
+	font-size: 2em;
+}
+
+img{
+
+}
+
+h3{
+	text-align:center;
+}
+#byline{
+	text-align:center;
+	margin-top: 0px;
+}
+a{
+	text-align:center;
+	font-size: 20px;
+}
+
+h1{
+	text-align:center;
+}
+.links{
+	text-align:center;
+}
+p{
+	text-align:center;
+}

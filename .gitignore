@@ -1,0 +1,7 @@
+venv
+*.pyc
+staticfiles
+.env
+.idea
+ab_test.csv
+log

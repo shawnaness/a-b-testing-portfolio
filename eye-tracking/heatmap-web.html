@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<script src="heatmap.js-2.0.5/build/heatmap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+<link rel="stylesheet" href="heatmap.css"/>
+</head>
+<script type="text/javascript">
+$(document).ready(function() {
+ var one = document.getElementById("one");
+ var two = document.getElementById("two");
+ style = window.getComputedStyle(one);
+ wdt = style.getPropertyValue('width');
+ two.style.width = wdt;
+});
+</script>
+<body>
+<h2>Heatmap</h2>
+<script src="sketch.js"></script>
+<script src="heatmap.js"></script>
+<div id="one" class="heatmap" style="position: relative;">
+<img id="two" class="heatmap-canvas" id="heatmap-canvas" style="position: absolute; left: 0px; top: 0px" src="versiona.png">
+</div>
+</body>
+</html>
